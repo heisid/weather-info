@@ -2,15 +2,20 @@
 <html lang="en">
 
 <head>
-    <title>Laporan Cuaca</title>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Weather Report</title>
 </head>
 
 <body>
     <div id="location">
         <p>Your Location:: <span id="location-msg"></span></p>
     </div>
-    <div id="weather">
-        <h2>Current Weather: <span id="main-weather-msg"></span></h2>
+    <div class="weather">
+        <h1>Weather Report</h1>
+        <div class="main-weather-box"><span id="main-weather-msg"></span></div>
+        <div class="detail-weather-box">
+
+        </div>
         <span id="weather-msg"></span>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

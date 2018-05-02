@@ -2,3 +2,11 @@
      padding: 30px;
      text-align: center;
 }
+
+/* Remove ugly after-pressed effect */
+
+.btn:focus,
+.btn:active {
+	outline: none !important;
+	box-shadow: none !important;
+}

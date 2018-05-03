@@ -1,3 +1,16 @@
+.body {
+    font-family: OpenSans, sans-serif;
+}
+
+.location {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.main-weather-box {
+    font-size: 18pt;
+}
+
 .weather {
      padding: 30px;
      text-align: center;
@@ -9,4 +22,8 @@
 .btn:active {
 	outline: none !important;
 	box-shadow: none !important;
+}
+
+td {
+    text-align: left;
 }

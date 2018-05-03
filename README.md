@@ -1,7 +1,7 @@
 # Weather-Info
 
 A simple weather information using HTML geolocation.
-JSON endpoint uses [https://fcc-weather-api.glitch.me]
+JSON endpoint uses <https://fcc-weather-api.glitch.me>
 
 There's still weird bug though, sometimes it show cached data, incorrectly says that our location is in JP. It occures about once in three times.
 

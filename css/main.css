@@ -27,3 +27,16 @@
 td {
     text-align: left;
 }
+
+.footer {
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: white;
+}
